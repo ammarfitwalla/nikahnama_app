@@ -1,0 +1,151 @@
+{
+    "image_path": "images/nn_preprint_blank.png",
+    "dpi": 96,
+    "unit": "millimeters",
+    "fields": {
+        "SrNo": {
+            "x_mm": 37.29,
+            "y_mm": 45.22,
+            "x_pixels": 140.93858267716536,
+            "y_pixels": 170.91023622047246,
+            "text": "2025-00098",
+            "font_size": 10,
+            "text_width": -1.0
+        },
+        "HijriDate": {
+            "x_mm": 44.45,
+            "y_mm": 65.63,
+            "x_pixels": 168.00000000000003,
+            "y_pixels": 248.0503937007874,
+            "text": "1447-09-25",
+            "font_size": 10,
+            "text_width": -1.0
+        },
+        "EnglishDate": {
+            "x_mm": 111.39,
+            "y_mm": 65.88,
+            "x_pixels": 421.00157480314965,
+            "y_pixels": 248.9952755905512,
+            "text": "2025-09-14",
+            "font_size": 10,
+            "text_width": -1.0
+        },
+        "Time": {
+            "x_mm": 163.24,
+            "y_mm": 65.88,
+            "x_pixels": 616.9700787401575,
+            "y_pixels": 248.9952755905512,
+            "text": "17:24",
+            "font_size": 11,
+            "text_width": -1.0
+        },
+        "PlaceOfNikah": {
+            "x_mm": 51.32,
+            "y_mm": 72.75,
+            "x_pixels": 193.9653543307087,
+            "y_pixels": 274.96062992125985,
+            "text": "Masjid Ahle Hadees, Kurla, Fitwalla bldg., Pipe Road, M.P. Marg, Kurla West, Mumbai 400070",
+            "font_size": 9,
+            "text_width": -1.0
+        },
+        "Bridegroom": {
+            "x_mm": 102.38,
+            "y_mm": 89.98,
+            "x_pixels": 386.948031496063,
+            "y_pixels": 340.08188976377954,
+            "text": "Mohammed Abdullah s/o Abdul Kareem Al-Farouqi, \n25 years, Flat No. 404, Green Meadows Apartment, \nNear Kurla Railway Station, Mumbai-400070.",
+            "font_size": 10,
+            "text_width": -1.0
+        },
+        "Bride": {
+            "x_mm": 91.82,
+            "y_mm": 114.58,
+            "x_pixels": 347.03622047244096,
+            "y_pixels": 433.05826771653545,
+            "text": "Ayesha Fatima d/o Ahmed Khan, 23 years, House No. 123, Pearl Residency, 5th Cross Road, Bandra West, Mumbai-400050",
+            "font_size": 10,
+            "text_width": -1.0
+        },
+        "Wali": {
+            "x_mm": 95.0,
+            "y_mm": 138.38,
+            "x_pixels": 359.05511811023626,
+            "y_pixels": 523.0110236220472,
+            "text": "Ahmed Khan s/o , 56 years, House No. 123, Pearl Residency, 5th Cross Road, Bandra West, Mumbai-400050",
+            "font_size": 10,
+            "text_width": -1.0
+        },
+        "Witness1": {
+            "x_mm": 91.82,
+            "y_mm": 185.72,
+            "x_pixels": 347.03622047244096,
+            "y_pixels": 701.9338582677166,
+            "text": "Yusuf Shaikh s/o Abdul Majid Shaikh, 40 years, House No. 12, Noor Apartment, M.T. Marg, Kurla (West), Mumbai-400070",
+            "font_size": 10,
+            "text_width": -1.0
+        },
+        "Witness2": {
+            "x_mm": 92.06,
+            "y_mm": 163.23,
+            "x_pixels": 347.9433070866142,
+            "y_pixels": 616.9322834645669,
+            "text": "Imran Qureshi s/o Abdul Hafeez Qureshi, 60 years, 45/7, Sunshine Tower, Byculla East, Mumbai-400027",
+            "font_size": 10,
+            "text_width": -1.0
+        },
+        "Mahr": {
+            "x_mm": 66.69,
+            "y_mm": 205.06,
+            "x_pixels": 252.05669291338583,
+            "y_pixels": 775.0299212598427,
+            "text": "Seventy Five Thousand Rupees Only",
+            "font_size": 10,
+            "text_width": -1.0
+        },
+        "QaziNameSeal": {
+            "x_mm": 55.57,
+            "y_mm": 252.69,
+            "x_pixels": 210.02834645669293,
+            "y_pixels": 955.0488188976377,
+            "text": "Qazi Abdul Rahman Al-Hindi",
+            "font_size": 8,
+            "text_width": -1.0
+        },
+        "mahr_in_figures": {
+            "x_mm": 158.21,
+            "y_mm": 206.1,
+            "x_pixels": 597.9590551181103,
+            "y_pixels": 778.9606299212599,
+            "text": "75000",
+            "font_size": 10,
+            "text_width": -1.0
+        },
+        "bride_name_only": {
+            "x_mm": 118.56,
+            "y_mm": 257.44,
+            "x_pixels": 448.10078740157485,
+            "y_pixels": 973.0015748031495,
+            "text": "Ayesha Fatima d/o Ahmed Khan",
+            "font_size": 8,
+            "text_width": -1.0
+        },
+        "groom_name_only": {
+            "x_mm": 77.54,
+            "y_mm": 299.5,
+            "x_pixels": 293.0645669291339,
+            "y_pixels": 1131.9685039370079,
+            "text": "Mohammed Abdullah s/o Abdul Kareem Al-Farouqi",
+            "font_size": 9,
+            "text_width": -1.0
+        },
+        "mahr_in_words": {
+            "x_mm": 159.56,
+            "y_mm": 300.56,
+            "x_pixels": 603.0614173228347,
+            "y_pixels": 1135.9748031496065,
+            "text": "Seventy Five Thousand Rupees Only",
+            "font_size": 9,
+            "text_width": -1.0
+        }
+    }
+}
