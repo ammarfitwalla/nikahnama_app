@@ -2,7 +2,7 @@
 import sqlite3
 from datetime import datetime
 
-DB_PATH = "nikahnama.db"
+DB_PATH = "nn_data/nikahnama.db"
 
 def get_conn():
     conn = sqlite3.connect(DB_PATH)
