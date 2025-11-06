@@ -43,7 +43,7 @@ class ImageTextEditor(QMainWindow):
      
      self.text_items = {}
      self.image_path = template_path or "nn_data/nn_preprint_blank.png"
-     self.coords_file = coords_path or "coordinates.json"
+     self.coords_file = coords_path or "nn_data/coordinates.json"
      print(coords_path)
      self.initial_data = initial_data or {}
      self.dpi = 96

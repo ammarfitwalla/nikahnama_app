@@ -288,7 +288,7 @@ class MainWindow(QtWidgets.QMainWindow):
                 parent=self,
                 initial_data=print_data,
                 template_path=template_path,
-                coords_path="coordinates.json"
+                coords_path="nn_data/coordinates.json"
             )
             
             # Connect signal to know when printing is done
