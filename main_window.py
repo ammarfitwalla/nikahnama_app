@@ -20,7 +20,7 @@ class PrintOptionsDialog(QtWidgets.QDialog):
 
         self.chk_bg = QtWidgets.QCheckBox("Show template background for calibration")
         self.chk_grid = QtWidgets.QCheckBox("Show 10mm grid")
-        self.ed_template = QtWidgets.QLineEdit(os.path.abspath("data/nn_preprint_blank.png"))
+        self.ed_template = QtWidgets.QLineEdit(os.path.abspath("nn_data/nn_preprint_blank.png"))
         btn_browse = QtWidgets.QPushButton("Browse…")
         def browse():
             p, _ = QtWidgets.QFileDialog.getOpenFileName(self, "Select template image", "", "Images (*.png *.jpg *.jpeg)")
@@ -275,9 +275,9 @@ class MainWindow(QtWidgets.QMainWindow):
         print_data = map_form_to_print(data)
         
         # Get template path from settings or use default
-        template_path = self.settings.value("print/template_path", "data/nn_preprint_blank.png")
+        template_path = self.settings.value("print/template_path", "nn_data/nn_preprint_blank.png")
         if not os.path.exists(template_path):
-            template_path = "data/nn_preprint_blank.png"
+            template_path = "nn_data/nn_preprint_blank.png"
         
         # Open form mapper with current data
         try:

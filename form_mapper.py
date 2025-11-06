@@ -42,7 +42,7 @@ class ImageTextEditor(QMainWindow):
      self.setGeometry(100, 100, 1400, 800)
      
      self.text_items = {}
-     self.image_path = template_path or "data/nn_preprint_blank.png"
+     self.image_path = template_path or "nn_data/nn_preprint_blank.png"
      self.coords_file = coords_path or "coordinates.json"
      print(coords_path)
      self.initial_data = initial_data or {}
