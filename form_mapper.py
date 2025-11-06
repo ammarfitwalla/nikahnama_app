@@ -20,7 +20,7 @@ class DraggableTextItem(QGraphicsTextItem):
      self.setFlag(QGraphicsTextItem.ItemIsSelectable)
      self.setTextInteractionFlags(Qt.NoTextInteraction)
      self.setDefaultTextColor(QColor(255, 0, 0))  # Red for better visibility
-     font = QFont("Arial", 14, QFont.Bold)
+     font = QFont("Georgia", 14)
      self.setFont(font)
      self.setZValue(100)  # Ensure text is above image
      
@@ -42,7 +42,7 @@ class ImageTextEditor(QMainWindow):
      self.setGeometry(100, 100, 1400, 800)
      
      self.text_items = {}
-     self.image_path = template_path or "images/nn_preprint_blank.png"
+     self.image_path = template_path or "data/nn_preprint_blank.png"
      self.coords_file = coords_path or "coordinates.json"
      print(coords_path)
      self.initial_data = initial_data or {}
@@ -114,13 +114,13 @@ class ImageTextEditor(QMainWindow):
      self.dpi_spinbox.valueChanged.connect(self.update_dpi)
      dpi_layout.addWidget(dpi_label)
      dpi_layout.addWidget(self.dpi_spinbox)
-     control_layout.addLayout(dpi_layout)
+    #  control_layout.addLayout(dpi_layout)
      
      # Info label
      self.info_label = QLabel("Set DPI for your image\n(96 for screen, 300 for print)")
      self.info_label.setWordWrap(True)
      self.info_label.setStyleSheet("color: gray; font-size: 10px;")
-     control_layout.addWidget(self.info_label)
+    #  control_layout.addWidget(self.info_label)
      
      # Primary Action Button
      btn_save_and_print = QPushButton("🖨️ Print")
@@ -155,7 +155,7 @@ class ImageTextEditor(QMainWindow):
      
      btn_remove_text = QPushButton("Remove Selected")
      btn_remove_text.clicked.connect(self.remove_selected_text)
-     control_layout.addWidget(btn_remove_text)
+    #  control_layout.addWidget(btn_remove_text)
      
      # Property Panel
      self.create_property_panel(control_layout)
@@ -199,7 +199,7 @@ class ImageTextEditor(QMainWindow):
      self.width_spinbox.valueChanged.connect(self.update_text_width)
      width_layout.addWidget(width_label)
      width_layout.addWidget(self.width_spinbox)
-     property_layout.addLayout(width_layout)
+    #  property_layout.addLayout(width_layout)
      
      # Text edit
      text_edit_label = QLabel("Text Content:")
@@ -502,7 +502,7 @@ class ImageTextEditor(QMainWindow):
                     printer,
                     self.initial_data,
                     coords_file=self.coords_file,
-                    show_template=True,
+                    show_template=False,
                     template_path=self.image_path,
                     debug_grid=False
                 )
