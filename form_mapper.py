@@ -20,7 +20,7 @@ class DraggableTextItem(QGraphicsTextItem):
      self.setFlag(QGraphicsTextItem.ItemIsSelectable)
      self.setTextInteractionFlags(Qt.NoTextInteraction)
      self.setDefaultTextColor(QColor(255, 0, 0))  # Red for better visibility
-     font = QFont("Georgia", 14)
+     font = QFont("Arial", 14)
      self.setFont(font)
      self.setZValue(100)  # Ensure text is above image
      
